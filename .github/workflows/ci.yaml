@@ -1,5 +1,4 @@
 #어떤 작업인지 이름달기
-
 name: 나의 첫 CI
 
 # 언제 실행하는지 
@@ -11,3 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello!"
+      - run: whoami
+      - run: pwd
