@@ -15,7 +15,7 @@ jobs:
       #2. 검사 도구 실행에 필요한 node.js준비
       - uses: actions/setup-node@v4
         with:
-          node-version:'22'
+          node-version: '22'
       #3. HTML 검사
       - run: npx --yes html-validate --rule close-order:error index.html
       
